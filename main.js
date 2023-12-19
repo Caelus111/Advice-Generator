@@ -11,6 +11,6 @@ function getAdvice(params) {
       advice.textContent = `"${data.slip.advice}"`;
     });
 }
-getAdvice();
+// getAdvice();
 
 dice.addEventListener("click", getAdvice);

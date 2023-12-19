@@ -38,13 +38,16 @@ body {
 
 .advice {
   color: #cee3e9;
-  font-size:  clamp(1.35rem, 1.2761rem + 0.3696vw, 1.5625rem);
-  font-weight: 700;
-  padding: 0 0 0 0;
+  font-size:  clamp(1.625rem, 1.5815rem + 0.2174vw, 1.75rem);
+  font-weight: bolder;
   /* width: 90%; */
   text-align: center;
-  line-height: 1.7;
+  line-height: 1.5;
      padding: 0 20px 20px 20px;
+}
+
+.advice p {
+  padding-inline: 5px ;
 }
 
 .divider {
